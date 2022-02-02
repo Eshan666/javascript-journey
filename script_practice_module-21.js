@@ -124,3 +124,21 @@ function isPrime(num){
 
 console.log(isPrime(11));
 */
+
+function onlyPositive(numList){
+    let onlyPositiveNumList = [];
+    for(num of numList){
+        if(num < 0){
+            break;
+        }
+        else{
+            onlyPositiveNumList.push(num);
+        }
+    }
+
+    return onlyPositiveNumList;
+}
+
+numList = [12,18,0,-923,28,298,-13,109,38,12,30,76];
+
+console.log(onlyPositive(numList));

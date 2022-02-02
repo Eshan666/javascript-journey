@@ -83,6 +83,44 @@ function reverseString(text){
 reverseString("I am Eshan");
 */
 
+/*
+let numList = [23,76,15,75,67,25,10,128];
 
+let largest = numList[0];
 
+for(let num of numList){
+    if(num>largest){
+        largest = num;
+    }
+}
+console.log(largest);
+let secondLargest = numList[0];
 
+for(let number of numList){
+    if(number>secondLargest && number<largest){
+        secondLargest = number;
+    }
+}
+console.log(secondLargest)
+*/
+/*
+function isPrime(num){
+    let flag = true;
+    for(i=2;i<num;i++){
+        if(num%i == 0){
+            flag = false;
+            break;  
+        }
+
+    }
+
+    if(flag == false){
+        return false;
+    }
+    else{
+        return true;
+    }
+}
+
+console.log(isPrime(11));
+*/

@@ -1,3 +1,4 @@
+/*
 console.log(5)
 console.log(54)
 // console.log(5)
@@ -20,3 +21,4 @@ console.log(ageInFloat);
 console.log(ageInInteger);
 console.log(typeof ageInFloat);
 console.log(ageInFloat.toFixed(1));
+*/

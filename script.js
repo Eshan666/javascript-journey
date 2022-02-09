@@ -26,13 +26,13 @@ console.log("js file connected");
 let titles = document.getElementsByTagName('h3');
 
 for(let title of titles){
-    console.log(title.style);
+    //console.log(title.style);
     title.style.textAlign = 'center';
     title.style.border = '2px solid black';
 
 
 }
-console.log(titles);
+//console.log(titles);
 
 let element = document.getElementsByTagName[0];
 
@@ -46,5 +46,28 @@ paragraph.innerText = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. 
 
 postList.appendChild(heading);
 postList.appendChild(paragraph);
+
+let  e = document.getElementById("hablu-mail");
+let  b = document.getElementById("hablu-btn");
+let  bablu = document.getElementById("bablu");
+console.log(e);
+console.log(b);
+e.addEventListener("keyup", function (event) 
+{
+    event.preventDefault();
+    console.log(e.value);
+    bablu.innerText = e.value;
+
+    /*
+    if(e.value == "eshanahmed49@gmail.com"){
+        b.disabled = false;
+    }
+    else{
+        b.disabled = true;
+    }
+    */
+    
+});
+
 
 

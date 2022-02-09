@@ -22,3 +22,29 @@ console.log(ageInInteger);
 console.log(typeof ageInFloat);
 console.log(ageInFloat.toFixed(1));
 */
+console.log("js file connected");
+let titles = document.getElementsByTagName('h3');
+
+for(let title of titles){
+    console.log(title.style);
+    title.style.textAlign = 'center';
+    title.style.border = '2px solid black';
+
+
+}
+console.log(titles);
+
+let element = document.getElementsByTagName[0];
+
+let postList = document.getElementById("post-list");
+
+let heading = document.createElement("h3");
+heading.innerText = "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa amet, atque repellat cupiditate aut voluptate!"
+
+let paragraph = document.createElement("p");
+paragraph.innerText = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et sint doloremque exercitationem odio dolores hic, tempora accusantium atque delectus rerum dignissimos voluptatem? Ab beatae perferendis voluptates facilis, soluta quos at laudantium, aut unde, ea ratione itaque quas tenetur vitae velit!'
+
+postList.appendChild(heading);
+postList.appendChild(paragraph);
+
+

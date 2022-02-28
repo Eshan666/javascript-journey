@@ -1,10 +1,19 @@
-
-fetch('https://jsonplaceholder.typicode.com/posts')
+url = 'https://www.themealdb.com/api/json/v1/1/search.php?s=fish';
+  fetch(url)
   .then(response => response.json())
   .then(posts => loadPosts(posts))
 
 
+function loadPosts(posts){
+ 
+    console.log(posts.meals);
+  
+}
 
+
+//console.log(generateData('www.themealdb.com/api/json/v1/1/search.php?s=Arrabiata'));
+
+/*
 
 function loadPosts(posts) {
   let postContainer = document.getElementById('post-container');
@@ -23,6 +32,6 @@ function loadPosts(posts) {
   }
   
 }
-
+*/
 
 
